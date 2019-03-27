@@ -9,7 +9,7 @@ export const actions = {
 }
 
 // The action creators are how you bundle actions with the data required to execute them
-export const archive = id => ({ type: actions.ARCHIVE_TASK, id })
+export const archiveTask = id => ({ type: actions.ARCHIVE_TASK, id })
 export const pinTask = id => ({ type: actions.PIN_TASK, id })
 
 // All our reducers simply change the state of a single task.
